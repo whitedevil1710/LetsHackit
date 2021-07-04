@@ -45,3 +45,49 @@ We have to hack the metasploitable using the kali linux
 ![](https://github.com/whitedevil1710/LetsHackit/blob/main/metasploitable.png)
 
 ### **So we found that we sucessfully done with hack**
+
+## **Android hacking**
+
+**Goal**
+
+Hacking the android using kali linux
+
+**Let&#39;s do it.**
+
+For hacking a android it is not easy as we see also there is high sort of security in our android and other devices it is becoming harder to hack it but lets see how it is going to work but it is not going to be a successful one.
+
+So lets create the payload for hacking the android device. Payload is nothing but a simple form of virus which will help us to connect to the shell of android devices.
+
+Lets check our local host IP so that we can configure our payload.
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/ip.png)
+
+From here we can find our IP is **10.0.2.15**
+
+Now lets create a payload.
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/payload.png)
+
+So we successfully created the payload
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/apk%20created.PNG)
+
+Now lets send this to android and install the application there
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/apk.png)
+
+As it is successfully downloaded the file successfully
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/app.png)
+
+Now we can see that it is installed in the phone
+
+Now let&#39;s open the Metasploit 
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/metasploit.png)
+
+So as it is shown that the Metasploit has opened let&#39;s configure the payload and try exploiting it
+
+![](https://github.com/whitedevil1710/LetsHackit/blob/main/exploit.png)
+
+As it is shown the session didn&#39;t opened due to high security in mobile.
